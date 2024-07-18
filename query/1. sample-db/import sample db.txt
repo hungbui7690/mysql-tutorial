@@ -1,0 +1,30 @@
+
+########## Method 1 ###########
+1. Open "MySQL Shell"
+
+2. \sql
+	> turn from JS to SQL Mode
+	
+3. \connect root@localhost
+	> login to root 
+	> Mac: mysql -u root -p
+
+
+######### Method 2 #########
+terminal:
+
+1. cd "C:\Program Files\MySQL\MySQL Server 8.0\bin"
+
+2. run command: .\mysql -u root -p
+
+3. enter password 
+
+
+///////// Import //////////
+Run commands: 
+- source c:/temp/mysqlsampledatabase.sql
+	> import
+
+- show databases;
+
+
